@@ -10,6 +10,7 @@ import "./IUniswapV2Router02.sol";
 import "./IUniswapV2Factory.sol";
 import "./IUniswapV2Pair.sol";
 
+// 1 index tokenin kaçar token tutacağı en başta belirtilmeli 
 contract IndexStrategyV1 is Ownable, ERC20 {
     using SafeMath for uint256;
 
